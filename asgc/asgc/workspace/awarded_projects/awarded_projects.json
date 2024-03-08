@@ -1,0 +1,37 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"8JkQClspt_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Awarded Projects</span>\",\"col\":12}},{\"id\":\"w7Y6OEvKt7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A_yWLhWsu7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Projects Awarded List\",\"col\":4}}]",
+ "creation": "2024-01-10 11:19:27.064284",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-energy-points",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "Awarded Projects",
+ "links": [],
+ "modified": "2024-03-07 17:42:15.913554",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Awarded Projects",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Projects Awarded List",
+   "link_to": "Projects Awarded",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Awarded Projects"
+}

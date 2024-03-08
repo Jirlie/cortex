@@ -1,0 +1,272 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_number}",
+ "creation": "2024-01-16 11:38:01.299507",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_o02i5",
+  "time",
+  "column_break_hpcvs",
+  "project_number",
+  "column_break_imzss",
+  "project_name",
+  "section_break_dmeek",
+  "country",
+  "column_break_bmirt",
+  "city",
+  "column_break_agyv4",
+  "area",
+  "aa_section",
+  "location",
+  "project_info_column",
+  "client",
+  "pmc",
+  "consualtant",
+  "main_contractor",
+  "estimated_budget",
+  "currency",
+  "section_break_vj1ne",
+  "expected_start_date",
+  "column_break_q7b33",
+  "expected_end_date",
+  "column_break_x6l7l",
+  "duration"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1,
+   "width": "2"
+  },
+  {
+   "fieldname": "column_break_o02i5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time",
+   "reqd": 1,
+   "width": "2"
+  },
+  {
+   "fieldname": "column_break_hpcvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "project_number",
+   "fieldtype": "Link",
+   "label": "Project Number",
+   "options": "Proposal",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_imzss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fetch_from": "project_number.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name",
+   "read_only": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_dmeek",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "project_number.country",
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bmirt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.city",
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "City",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_agyv4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.area",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "aa_section",
+   "fieldtype": "Section Break",
+   "label": "Details",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.location",
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "project_info_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.client",
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Customer",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.pmc",
+   "fieldname": "pmc",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "PMC",
+   "options": "PMC",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.consultant",
+   "fieldname": "consualtant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Consualtant",
+   "options": "Consultant",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.main_contractor",
+   "fieldname": "main_contractor",
+   "fieldtype": "Link",
+   "label": "Main contractor ",
+   "options": "Contractor",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.estimated_budget",
+   "fieldname": "estimated_budget",
+   "fieldtype": "Float",
+   "label": "Estimated Budget",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.currency",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_vj1ne",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "project_number.expected_start_date",
+   "fieldname": "expected_start_date",
+   "fieldtype": "Date",
+   "label": "Expected Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_q7b33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.expected_end_date",
+   "fieldname": "expected_end_date",
+   "fieldtype": "Date",
+   "label": "Expected End Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_x6l7l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.duration_months",
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-27 16:28:28.496378",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Proposal test",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "project_name"
+}

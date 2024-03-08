@@ -1,0 +1,78 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"1JBaho2oUA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Learned lessons</span>\",\"col\":12}},{\"id\":\"KPesvv0bN1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Management \",\"col\":3}},{\"id\":\"KJBgt9vMzf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tender\",\"col\":3}},{\"id\":\"ckiap_S4Fy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contract\",\"col\":3}},{\"id\":\"u86U2m_Mke\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Procurement\",\"col\":3}},{\"id\":\"kqWYeu8Cnc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Installation \",\"col\":3}},{\"id\":\"g38G4wNhL1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"T & C\",\"col\":3}},{\"id\":\"hTXrenjXuA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HSE\",\"col\":3}}]",
+ "creation": "2023-11-10 02:02:20.836592",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "Learned lessons",
+ "links": [],
+ "modified": "2024-03-07 17:42:11.281900",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Learned lessons",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 33.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Management ",
+   "link_to": "Management",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tender",
+   "link_to": "Proposal",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Contract",
+   "link_to": "Contract",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Procurement",
+   "link_to": "Plan Procurement",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Installation ",
+   "link_to": "Installation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "T & C",
+   "link_to": "T and C",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "HSE",
+   "link_to": "HSE",
+   "type": "DocType"
+  }
+ ],
+ "title": "Learned lessons"
+}

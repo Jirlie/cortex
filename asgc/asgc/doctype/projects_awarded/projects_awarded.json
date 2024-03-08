@@ -1,0 +1,500 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_number}",
+ "creation": "2023-12-22 06:16:20.827022",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_kzpzq",
+  "time",
+  "section_break_y1dng",
+  "project_number",
+  "column_break_tvl3h",
+  "project_name",
+  "column_break_1yycm",
+  "project_operation_number",
+  "column_break_fhd0d",
+  "project_operation_name",
+  "section_break_ne5k3",
+  "country",
+  "column_break_fumpt",
+  "city",
+  "column_break_uwtcl",
+  "area",
+  "section_break_yloav",
+  "location",
+  "column_break_ruhrc",
+  "client",
+  "pmc",
+  "consultant",
+  "main_contractor",
+  "estimated_budget",
+  "currency",
+  "section_break_793vl",
+  "expected_start",
+  "column_break_kqfbk",
+  "excpected_end",
+  "column_break_dnn2l",
+  "duration_in_months",
+  "section_break_4uvcg",
+  "tender_ifc",
+  "column_break_yzttv",
+  "shop_drawings",
+  "column_break_z19ca",
+  "technical_submittal",
+  "column_break_8mvss",
+  "pre_qualification",
+  "column_break_cnaq5",
+  "suppliers",
+  "column_break_adyan",
+  "specs",
+  "section_break_tttki",
+  "plan",
+  "column_break_exk0n",
+  "hse",
+  "column_break_jfyvi",
+  "welfare",
+  "column_break_alnsy",
+  "qa_qc",
+  "column_break_yjkij",
+  "logistics",
+  "column_break_5yrpm",
+  "esg",
+  "column_break_megwr",
+  "meeting",
+  "column_break_vo7sy",
+  "staff",
+  "column_break_v85vh",
+  "letters",
+  "column_break_noza9",
+  "reports",
+  "column_break_ozozm",
+  "audit"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "project_operation_name",
+   "fieldtype": "Data",
+   "label": "Project Operation Name"
+  },
+  {
+   "fieldname": "project_operation_number",
+   "fieldtype": "Data",
+   "label": "Project Operation Number"
+  },
+  {
+   "fetch_from": "project_number.country",
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.city",
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.location",
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fetch_from": "project_number.client",
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.pmc",
+   "fieldname": "pmc",
+   "fieldtype": "Link",
+   "label": "PMC",
+   "options": "PMC",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.consultant",
+   "fieldname": "consultant",
+   "fieldtype": "Link",
+   "label": "Consultant",
+   "options": "Consultant",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.main_contractor",
+   "fieldname": "main_contractor",
+   "fieldtype": "Link",
+   "label": "Main Contractor",
+   "options": "Contractor",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.estimated_budget",
+   "fieldname": "estimated_budget",
+   "fieldtype": "Currency",
+   "label": "Estimated Budget",
+   "read_only": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.expected_start_date",
+   "fieldname": "expected_start",
+   "fieldtype": "Date",
+   "label": "Expected Start",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.expected_end_date",
+   "fieldname": "excpected_end",
+   "fieldtype": "Date",
+   "label": "Excpected End",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.duration_months",
+   "fieldname": "duration_in_months",
+   "fieldtype": "Data",
+   "label": "Duration in Months",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kzpzq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_y1dng",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fhd0d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tvl3h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ne5k3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fumpt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uwtcl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.area",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_yloav",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ruhrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_793vl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kqfbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dnn2l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4uvcg",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "tender_ifc",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Tender IFC",
+   "options": "TENDER IFC"
+  },
+  {
+   "fieldname": "column_break_yzttv",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "shop_drawings",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Shop Drawings",
+   "options": "Shop Drawings"
+  },
+  {
+   "fieldname": "column_break_z19ca",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "technical_submittal",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Technical Submittal",
+   "options": "Technical Submittal"
+  },
+  {
+   "fieldname": "column_break_8mvss",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "project_number.specs",
+   "fieldname": "specs",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Specs",
+   "options": "Specs"
+  },
+  {
+   "fetch_from": "project_number.plan",
+   "fieldname": "plan",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Plan",
+   "options": "Plan"
+  },
+  {
+   "fieldname": "hse",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "HSE",
+   "options": "HSE"
+  },
+  {
+   "fieldname": "section_break_tttki",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "welfare",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Welfare",
+   "options": "Welfare"
+  },
+  {
+   "fieldname": "column_break_alnsy",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "logistics",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Logistics",
+   "options": "Logistics"
+  },
+  {
+   "fieldname": "esg",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "ESG",
+   "options": "ESG"
+  },
+  {
+   "fieldname": "column_break_vo7sy",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "meeting",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Meeting",
+   "options": "Meeting"
+  },
+  {
+   "fieldname": "column_break_v85vh",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "staff",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Staff",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "letters",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Letters",
+   "options": "Letters"
+  },
+  {
+   "fieldname": "column_break_megwr",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "reports",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Reports",
+   "options": "Reports"
+  },
+  {
+   "fieldname": "column_break_ozozm",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "audit",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Audit",
+   "options": "Audit"
+  },
+  {
+   "fieldname": "pre_qualification",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Pre Qualification",
+   "options": "Pre-Qualification"
+  },
+  {
+   "fieldname": "column_break_cnaq5",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_noza9",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_jfyvi",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "project_number.suppliers",
+   "fieldname": "suppliers",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Suppliers ",
+   "options": "Suppliers"
+  },
+  {
+   "fieldname": "column_break_adyan",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_exk0n",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "qa_qc",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "QA QC",
+   "options": "QA-QC"
+  },
+  {
+   "fieldname": "column_break_5yrpm",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "column_break_yjkij",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Link",
+   "label": "Project Number",
+   "options": "Proposal",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1yycm",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-27 16:45:21.318676",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Projects Awarded",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "project_name",
+ "track_changes": 1
+}

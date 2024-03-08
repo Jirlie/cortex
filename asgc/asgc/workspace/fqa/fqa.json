@@ -1,0 +1,43 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"iXjjclfXCa\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FQA</span>\",\"col\":12}},{\"id\":\"PuuSQoE27O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Questions\",\"col\":3}},{\"id\":\"gctZ1AZ6Cp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Answers \",\"col\":3}}]",
+ "creation": "2023-11-10 02:02:52.830077",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "solid-info",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "FQA",
+ "links": [],
+ "modified": "2024-03-07 17:42:11.634638",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "FQA",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 38.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Questions",
+   "link_to": "Questions",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Answers ",
+   "link_to": "Answers",
+   "type": "DocType"
+  }
+ ],
+ "title": "FQA"
+}

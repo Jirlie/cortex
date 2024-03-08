@@ -1,0 +1,56 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"sB9mggJFm5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welfare</span>\",\"col\":12}},{\"id\":\"aiQ2uuh6zh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Welfare Manual \",\"col\":3}},{\"id\":\"ogf--dn-oz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Welfare Policy \",\"col\":3}},{\"id\":\"mFO5RFQge9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Welfare Forms\",\"col\":3}},{\"id\":\"0D6juqewCe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Welfare SOP's\",\"col\":3}}]",
+ "creation": "2023-11-10 02:01:30.864916",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Welfare",
+ "links": [],
+ "modified": "2024-03-07 17:42:11.016991",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Welfare",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Welfare Manual ",
+   "link_to": "Welfare Manual",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Welfare Policy ",
+   "link_to": "Welfare Policy",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Welfare Forms",
+   "link_to": "Welfare Forms",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Welfare SOP's",
+   "link_to": "Welfare SOP",
+   "type": "DocType"
+  }
+ ],
+ "title": "Welfare"
+}

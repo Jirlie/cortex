@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-13 04:42:57.760945",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "media",
+  "descreption"
+ ],
+ "fields": [
+  {
+   "columns": 5,
+   "fieldname": "media",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Media",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "descreption",
+   "fieldtype": "Small Text",
+   "label": "Descreption"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 10:40:25.554147",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Inspection Media",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

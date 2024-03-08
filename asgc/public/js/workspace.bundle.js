@@ -1,0 +1,1 @@
+import "./frappe/views/workspace/workspace.js";

@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 21:20:21.587425",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "column_break_somvz",
+  "project_number",
+  "specification_section",
+  "issued_for",
+  "column_break_pa1wn",
+  "issued_to",
+  "section_break_mzoav",
+  "revision_number",
+  "column_break_nvibo",
+  "attention",
+  "column_break_ifbeu",
+  "number_of_copies",
+  "column_break_uzvze",
+  "drawing_attached",
+  "column_break_zm1w9",
+  "standard_attached"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fetch_from": "project_number.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "column_break_somvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "project_number",
+   "fieldtype": "Link",
+   "label": "Project Number",
+   "options": "Projects Awarded"
+  },
+  {
+   "fieldname": "specification_section",
+   "fieldtype": "Section Break",
+   "label": "SPECIFICATION"
+  },
+  {
+   "fieldname": "issued_for",
+   "fieldtype": "Data",
+   "label": " Issued for"
+  },
+  {
+   "fieldname": "column_break_pa1wn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "issued_to",
+   "fieldtype": "Data",
+   "label": " Issued to"
+  },
+  {
+   "fieldname": "section_break_mzoav",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "revision_number",
+   "fieldtype": "Data",
+   "label": "Revision number"
+  },
+  {
+   "fieldname": "column_break_nvibo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "Attention"
+  },
+  {
+   "fieldname": "column_break_ifbeu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_copies",
+   "fieldtype": "Data",
+   "label": "Number of Copies"
+  },
+  {
+   "fieldname": "column_break_uzvze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "drawing_attached",
+   "fieldtype": "Data",
+   "label": "Drawing Attached "
+  },
+  {
+   "fieldname": "column_break_zm1w9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "standard_attached",
+   "fieldtype": "Data",
+   "label": "Standard Attached "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-19 20:50:54.271407",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Tender IFC Plumbing Specs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

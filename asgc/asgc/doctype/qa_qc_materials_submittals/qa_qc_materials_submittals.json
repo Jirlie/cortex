@@ -1,0 +1,458 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-19 18:52:15.678963",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "submittal_ref",
+  "column_break_qp8i4",
+  "date",
+  "column_break_ywhf4",
+  "rev",
+  "section_break_hfp8k",
+  "submittal_title",
+  "submitted_by",
+  "column_break_46tsi",
+  "signature",
+  "discipline_section",
+  "architecture",
+  "column_break_tcihh",
+  "structural",
+  "column_break_g8vbi",
+  "civil__infra",
+  "column_break_viif5",
+  "mechanical",
+  "column_break_ixusv",
+  "vt",
+  "column_break_dd3ok",
+  "landscape",
+  "column_break_rprrq",
+  "interior_design",
+  "column_break_aogk4",
+  "others",
+  "material_details_section",
+  "drawing_reference",
+  "specification_reference",
+  "boq_reference",
+  "material_specified",
+  "material_proposed",
+  "manufacturersupplier",
+  "remarks",
+  "column_break_1qbdg",
+  "technical_data_sheets",
+  "compliance_statement",
+  "specifications_extract",
+  "samples_with_sample_tag",
+  "others2",
+  "section_break_ownxx",
+  "contractors_authorised_signatory",
+  "column_break_sr53w",
+  "date1",
+  "section_break_vb5ui",
+  "supervision_consultants_received_signature",
+  "column_break_9avg8",
+  "date2",
+  "comment_section",
+  "comments",
+  "column_break_ofnop",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "section_break_wk5wn",
+  "reviewed_by",
+  "column_break_hp1ku",
+  "date3",
+  "section_break_yqctk",
+  "supervision_consultants_comments",
+  "section_break_4sbxp",
+  "reviewed_by2",
+  "column_break_bn83s",
+  "date4",
+  "section_break_j6hwt",
+  "contractors_received_signature",
+  "column_break_snbrg",
+  "date5",
+  "section_break_dcpdg",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "submittal_ref",
+   "fieldtype": "Data",
+   "label": "Submittal Ref"
+  },
+  {
+   "fieldname": "column_break_qp8i4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_ywhf4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_hfp8k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "submittal_title",
+   "fieldtype": "Data",
+   "label": "Submittal Title"
+  },
+  {
+   "fieldname": "submitted_by",
+   "fieldtype": "Data",
+   "label": "Submitted By"
+  },
+  {
+   "fieldname": "column_break_46tsi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "discipline_section",
+   "fieldtype": "Section Break",
+   "label": "Discipline"
+  },
+  {
+   "default": "0",
+   "fieldname": "architecture",
+   "fieldtype": "Check",
+   "label": "Architecture"
+  },
+  {
+   "fieldname": "column_break_tcihh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "structural",
+   "fieldtype": "Check",
+   "label": "Structural"
+  },
+  {
+   "fieldname": "column_break_g8vbi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "civil__infra",
+   "fieldtype": "Check",
+   "label": "Civil / Infra"
+  },
+  {
+   "fieldname": "column_break_viif5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "mechanical",
+   "fieldtype": "Check",
+   "label": "Mechanical"
+  },
+  {
+   "fieldname": "column_break_ixusv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "vt",
+   "fieldtype": "Check",
+   "label": "VT"
+  },
+  {
+   "fieldname": "column_break_dd3ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "landscape",
+   "fieldtype": "Check",
+   "label": "Landscape"
+  },
+  {
+   "fieldname": "column_break_rprrq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "interior_design",
+   "fieldtype": "Check",
+   "label": "Interior Design"
+  },
+  {
+   "fieldname": "column_break_aogk4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "material_details_section",
+   "fieldtype": "Section Break",
+   "label": "Material Details"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference"
+  },
+  {
+   "fieldname": "specification_reference",
+   "fieldtype": "Data",
+   "label": "Specification Reference"
+  },
+  {
+   "fieldname": "boq_reference",
+   "fieldtype": "Data",
+   "label": "BOQ Reference"
+  },
+  {
+   "fieldname": "material_specified",
+   "fieldtype": "Data",
+   "label": "Material Specified"
+  },
+  {
+   "fieldname": "material_proposed",
+   "fieldtype": "Data",
+   "label": "Material Proposed"
+  },
+  {
+   "fieldname": "manufacturersupplier",
+   "fieldtype": "Data",
+   "label": "Manufacturer/Supplier"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_1qbdg",
+   "fieldtype": "Column Break",
+   "label": "Documents Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "technical_data_sheets",
+   "fieldtype": "Check",
+   "label": "Technical Data Sheets"
+  },
+  {
+   "default": "0",
+   "fieldname": "compliance_statement",
+   "fieldtype": "Check",
+   "label": "Compliance Statement"
+  },
+  {
+   "default": "0",
+   "fieldname": "specifications_extract",
+   "fieldtype": "Check",
+   "label": "Specifications Extract"
+  },
+  {
+   "default": "0",
+   "fieldname": "samples_with_sample_tag",
+   "fieldtype": "Check",
+   "label": "Samples with Sample Tag"
+  },
+  {
+   "default": "0",
+   "fieldname": "others2",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "description": "The Contractor certifies that the material submitted herewith has been reviewed in detail and is in compliance with the contract drawings and specifications.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n",
+   "fieldname": "section_break_ownxx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contractors_authorised_signatory",
+   "fieldtype": "Signature",
+   "label": "Contractor's Authorised Signatory"
+  },
+  {
+   "fieldname": "column_break_sr53w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vb5ui",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supervision_consultants_received_signature",
+   "fieldtype": "Signature",
+   "label": "Supervision Consultant's Received Signature"
+  },
+  {
+   "fieldname": "column_break_9avg8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "comment_section",
+   "fieldtype": "Section Break",
+   "label": "Supervision Consultant's Specialist Representative Comments"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_ofnop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "a",
+   "fieldtype": "Check",
+   "label": "Code A - Approved"
+  },
+  {
+   "default": "0",
+   "fieldname": "b",
+   "fieldtype": "Check",
+   "label": "Code B - Approved with Comments"
+  },
+  {
+   "default": "0",
+   "fieldname": "c",
+   "fieldtype": "Check",
+   "label": "Code C - Revise and Resubmit"
+  },
+  {
+   "default": "0",
+   "fieldname": "d",
+   "fieldtype": "Check",
+   "label": "Code D - Rejected"
+  },
+  {
+   "default": "0",
+   "fieldname": "e",
+   "fieldtype": "Check",
+   "label": "Code E - For Information"
+  },
+  {
+   "fieldname": "section_break_wk5wn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Data",
+   "label": "Reviewed By"
+  },
+  {
+   "fieldname": "column_break_hp1ku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_yqctk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supervision_consultants_comments",
+   "fieldtype": "Text",
+   "label": "Supervision Consultant's Comments"
+  },
+  {
+   "fieldname": "section_break_4sbxp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reviewed_by2",
+   "fieldtype": "Data",
+   "label": "Reviewed By"
+  },
+  {
+   "fieldname": "column_break_bn83s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date4",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "description": "Corrections or comments made relative to submittals during this review do not relieve the contractor from compliance with the contract requirements and specifications. Any changes from previous revisions of the submittal or contract documents, unless specifically highlighted may not have been necessarily reviewed and hence not necessarily approved.\t\t\t\t\t",
+   "fieldname": "section_break_j6hwt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contractors_received_signature",
+   "fieldtype": "Signature",
+   "label": "Contractor's Received Signature"
+  },
+  {
+   "fieldname": "column_break_snbrg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date5",
+   "fieldtype": "Date",
+   "label": "date"
+  },
+  {
+   "fieldname": "section_break_dcpdg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-19 18:52:15.678963",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "QA QC Materials Submittals",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

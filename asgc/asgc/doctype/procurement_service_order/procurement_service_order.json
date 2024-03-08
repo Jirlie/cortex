@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-19 18:01:15.671827",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "column_break_uriz2",
+  "service_number",
+  "section_break_mus2v",
+  "project_number",
+  "section_break_9efhl",
+  "date",
+  "section_break_wip1l",
+  "supplier",
+  "column_break_rptm8",
+  "req_no",
+  "section_break_jcloy",
+  "service_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "column_break_uriz2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "service_number",
+   "fieldtype": "Data",
+   "label": "Service Order No."
+  },
+  {
+   "fieldname": "section_break_mus2v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Link",
+   "label": "Project No.",
+   "options": "Projects Awarded"
+  },
+  {
+   "fieldname": "section_break_9efhl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_wip1l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "column_break_rptm8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "req_no",
+   "fieldtype": "Data",
+   "label": "REQ No."
+  },
+  {
+   "fieldname": "section_break_jcloy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_item",
+   "fieldtype": "Table",
+   "label": "Service Order Item",
+   "options": "Service Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-01 15:22:50.010392",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Procurement Service Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

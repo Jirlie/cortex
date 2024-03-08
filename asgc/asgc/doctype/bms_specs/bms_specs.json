@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-31 09:52:49.484531",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bms_specs",
+  "descreption"
+ ],
+ "fields": [
+  {
+   "fieldname": "bms_specs",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "BMS Specs",
+   "reqd": 1
+  },
+  {
+   "fieldname": "descreption",
+   "fieldtype": "Data",
+   "label": "Descreption"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 10:40:07.364751",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "BMS Specs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

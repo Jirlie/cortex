@@ -1,0 +1,107 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"6RLdJ_Vj87\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Inspection</span>\",\"col\":12}},{\"id\":\"S4M2E6ypDh\",\"type\":\"card\",\"data\":{\"card_name\":\"Quality Inspection\",\"col\":12}}]",
+ "creation": "2023-11-13 04:51:58.932614",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "search",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "Inspection",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Parameter",
+   "link_count": 0,
+   "link_to": "Quality Inspection Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Template",
+   "link_count": 0,
+   "link_to": "Quality Inspection Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Category",
+   "link_count": 0,
+   "link_to": "Inspection Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Type",
+   "link_count": 0,
+   "link_to": "Inspection Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Location",
+   "link_count": 0,
+   "link_to": "Inspection Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Drawing Reference",
+   "link_count": 0,
+   "link_to": "Inspection Drawing Reference",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-03-07 17:42:10.534815",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Inspection",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 20.0,
+ "shortcuts": [],
+ "title": "Inspection"
+}

@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-19 18:01:28.466933",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "grn_no",
+  "column_break_0ueen",
+  "supplier_name",
+  "section_break_mblxl",
+  "items",
+  "approve",
+  "transact"
+ ],
+ "fields": [
+  {
+   "fieldname": "grn_no",
+   "fieldtype": "Data",
+   "label": "GRN No."
+  },
+  {
+   "fieldname": "column_break_0ueen",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "section_break_mblxl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Received Items"
+  },
+  {
+   "fieldname": "approve",
+   "fieldtype": "Button",
+   "label": "Approve"
+  },
+  {
+   "fieldname": "transact",
+   "fieldtype": "Button",
+   "label": "Transact"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-01 16:20:56.653560",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Procurement GRN",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

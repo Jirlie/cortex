@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-11 14:15:57.072550",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_dljs6",
+  "revision",
+  "column_break_tkahf",
+  "approved",
+  "column_break_vyaq4",
+  "commented",
+  "column_break_pkadf",
+  "reject",
+  "column_break_2v1cc",
+  "review_by",
+  "column_break_itnn8",
+  "approved_by"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_dljs6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "revision",
+   "fieldtype": "Data",
+   "label": "Revision"
+  },
+  {
+   "fieldname": "column_break_tkahf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "approved",
+   "fieldtype": "Data",
+   "label": "Approved "
+  },
+  {
+   "fieldname": "column_break_vyaq4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "commented",
+   "fieldtype": "Data",
+   "label": "Commented "
+  },
+  {
+   "fieldname": "column_break_pkadf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "reject",
+   "fieldtype": "Data",
+   "label": "Reject "
+  },
+  {
+   "fieldname": "column_break_2v1cc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "review_by",
+   "fieldtype": "Data",
+   "label": "Review By"
+  },
+  {
+   "fieldname": "column_break_itnn8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "approved_by",
+   "fieldtype": "Data",
+   "label": "Approved By "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-11 14:15:57.072550",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "HSE Plan Form",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

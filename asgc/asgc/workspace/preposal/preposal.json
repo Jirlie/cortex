@@ -1,0 +1,85 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"wYnC_b_h6w\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Preposal</span>\",\"col\":12}},{\"id\":\"AyfflWpJxG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Preposal\",\"col\":6}},{\"id\":\"TLYASZnNTz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Preposal List\",\"col\":6}},{\"id\":\"sskjTlmlsK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Proposal Policy\",\"col\":6}},{\"id\":\"Umm4-8uEGU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Proposal Circular\",\"col\":6}},{\"id\":\"OTl1zVuOCd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Proposal Manual\",\"col\":6}},{\"id\":\"poKFMVOO3O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Proposal SOPs\",\"col\":6}},{\"id\":\"seIHAvcaEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Preposal Internal Memo\",\"col\":6}}]",
+ "creation": "2023-11-10 01:55:03.887624",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "message",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Preposal",
+ "links": [],
+ "modified": "2024-03-07 17:42:09.208537",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Preposal",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Preposal",
+   "link_to": "Proposal",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Proposal Policy",
+   "link_to": "Proposal Policy",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Preposal List",
+   "link_to": "Proposal",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Proposal Circular",
+   "link_to": "Circular",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Proposal Manual",
+   "link_to": "Proposal Manual",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Proposal SOPs",
+   "link_to": "Proposal SOPs",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Preposal Internal Memo",
+   "link_to": "Internal Memo",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Preposal"
+}

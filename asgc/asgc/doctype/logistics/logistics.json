@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:project_name",
+ "creation": "2024-01-01 10:43:56.360687",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "logistics_plan",
+  "vehicle_request",
+  "plant_request"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Proposal",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "logistics_plan",
+   "fieldtype": "Table",
+   "label": "Logistics plan ",
+   "options": "Logistic plan"
+  },
+  {
+   "fieldname": "vehicle_request",
+   "fieldtype": "Table",
+   "label": "Vehicle Request",
+   "options": "Vehicle Request"
+  },
+  {
+   "fieldname": "plant_request",
+   "fieldtype": "Table",
+   "label": "Plant Request",
+   "options": "Plant Request"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-27 16:28:26.774207",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Logistics",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

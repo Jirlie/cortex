@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-01 10:56:31.315126",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "base_line",
+  "histogram"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Proposal2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "base_line",
+   "fieldtype": "Table",
+   "label": "Base Line",
+   "options": "Base line",
+   "reqd": 1
+  },
+  {
+   "fieldname": "histogram",
+   "fieldtype": "Table",
+   "label": "Histogram",
+   "options": "Histogram",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 11:37:27.002882",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

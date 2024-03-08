@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-07 20:42:19.511578",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "project_location",
+  "project_value",
+  "scope_of_work",
+  "client_reference"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "columns": 2,
+   "fieldname": "project_location",
+   "fieldtype": "Data",
+   "label": "Project Location"
+  },
+  {
+   "columns": 2,
+   "fieldname": "project_value",
+   "fieldtype": "Data",
+   "label": "Project Value"
+  },
+  {
+   "columns": 2,
+   "fieldname": "scope_of_work",
+   "fieldtype": "Data",
+   "label": "Scope of Work"
+  },
+  {
+   "columns": 2,
+   "fieldname": "client_reference",
+   "fieldtype": "Data",
+   "label": "Client Reference"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-07 20:42:19.511578",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Qualifications Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

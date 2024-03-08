@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:project_name",
+ "creation": "2024-01-06 15:49:27.620184",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "supply",
+  "supply_and_apply",
+  "specialist"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Tender List",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "supply",
+   "fieldtype": "Table",
+   "label": "SUPPLY ",
+   "options": "Pre-Qualification Form"
+  },
+  {
+   "fieldname": "supply_and_apply",
+   "fieldtype": "Table",
+   "label": "SUPPLY and APPLY",
+   "options": "Pre-Qualification Form"
+  },
+  {
+   "fieldname": "specialist",
+   "fieldtype": "Table",
+   "label": "SPECIALIST ",
+   "options": "Pre-Qualification Form"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-11 14:06:05.126993",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Pre-Qualification",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

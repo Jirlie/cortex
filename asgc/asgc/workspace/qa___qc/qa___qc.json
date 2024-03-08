@@ -1,0 +1,150 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"-3cc0XdlWl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">QA / QC</span>\",\"col\":12}},{\"id\":\"c0Ydwsz-TY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QA/QC Forms\",\"col\":3}},{\"id\":\"ik21phMnXX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QA/QC Policy\",\"col\":3}},{\"id\":\"6M6CGYEP5P\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QA/QC Manual\",\"col\":3}},{\"id\":\"x-hW3TdsKR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QA/QC SOP's\",\"col\":3}},{\"id\":\"SLRqN70jMz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RFI\",\"col\":6}},{\"id\":\"wpOAdbKYy7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WIR\",\"col\":6}},{\"id\":\"4HbSRVdh_9\",\"type\":\"card\",\"data\":{\"card_name\":\"Quality Inspection\",\"col\":4}}]",
+ "creation": "2023-11-10 02:00:58.300743",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "QA - QC",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Parameter",
+   "link_count": 0,
+   "link_to": "Quality Inspection Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Template",
+   "link_count": 0,
+   "link_to": "Quality Inspection Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Category",
+   "link_count": 0,
+   "link_to": "Inspection Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Type",
+   "link_count": 0,
+   "link_to": "Inspection Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Location",
+   "link_count": 0,
+   "link_to": "Inspection Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspection Drawing Reference",
+   "link_count": 0,
+   "link_to": "Inspection Drawing Reference",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-03-07 17:42:10.474952",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "QA - QC",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 19.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "QA/QC Forms",
+   "link_to": "QA QC Forms",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "QA/QC Policy",
+   "link_to": "QA QC Policy",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "QA/QC Manual",
+   "link_to": "QA QC Manual",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "QA/QC SOP's",
+   "link_to": "QA QC SOP",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "RFI",
+   "link_to": "RFI",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "WIR",
+   "link_to": "WIR",
+   "type": "DocType"
+  }
+ ],
+ "title": "QA - QC"
+}

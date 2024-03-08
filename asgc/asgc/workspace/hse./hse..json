@@ -1,0 +1,85 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"5xIgYoGM0r\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">HSE</span>\",\"col\":12}},{\"id\":\"1J9hAH4Irb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hse Manual\",\"col\":3}},{\"id\":\"Q9fQ1H8jAJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HSE Policy\",\"col\":3}},{\"id\":\"CvUiRFsHOI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hse Forms\",\"col\":3}},{\"id\":\"XMFR0CS-RT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HSE SOP's\",\"col\":3}},{\"id\":\"6JxiIj8w-M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Training\",\"col\":3}},{\"id\":\"TEkvm0ComV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Videos\",\"col\":3}},{\"id\":\"EGy3VEe3Q2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Induction\",\"col\":3}},{\"id\":\"pLRXUfeWHX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Permit \",\"col\":3}}]",
+ "creation": "2023-11-10 02:01:22.801731",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HSE.",
+ "links": [],
+ "modified": "2024-03-07 17:42:10.692700",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "HSE.",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hse Manual",
+   "link_to": "HSE Manual",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "HSE Policy",
+   "link_to": "HSE  Policy",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hse Forms",
+   "link_to": "HSE Forms",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "HSE SOP's",
+   "link_to": "HSE SOP",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Training",
+   "link_to": "Training",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Videos",
+   "link_to": "Videos",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Induction",
+   "link_to": "Induction",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Permit ",
+   "link_to": "Permit",
+   "type": "DocType"
+  }
+ ],
+ "title": "HSE."
+}

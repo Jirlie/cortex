@@ -1,0 +1,50 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"-SBCVc5r7w\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Live Support</span>\",\"col\":12}},{\"id\":\"aILcN-weqi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ASK AI TO GIVE INFORMATION REQUIRED FROM THE SOLUTION IT SELF\",\"col\":12}},{\"id\":\"CK5uA_sqKZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CUSTOMER SUPPORT\",\"col\":6}},{\"id\":\"QVZSbD2wuz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TECHNICAL SUPPORT \",\"col\":6}}]",
+ "creation": "2023-11-10 02:03:11.079818",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "Live Support",
+ "links": [],
+ "modified": "2024-03-07 17:42:11.683161",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Live Support",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "ASK AI TO GIVE INFORMATION REQUIRED FROM THE SOLUTION IT SELF",
+   "link_to": "ASK AI TO GIVE INFORMATION REQUIRED FROM THE SOLUTION IT SELF",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CUSTOMER SUPPORT",
+   "link_to": "CUSTOMER SUPPORT",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "TECHNICAL SUPPORT ",
+   "link_to": "TECHNICAL SUPPORT",
+   "type": "DocType"
+  }
+ ],
+ "title": "Live Support"
+}

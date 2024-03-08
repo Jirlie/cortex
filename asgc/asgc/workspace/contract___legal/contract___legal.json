@@ -1,0 +1,43 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"pcd_ATwrdk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Contract / Legal</span>\",\"col\":12}},{\"id\":\"i5BP74iocx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"UAE Law\",\"col\":3}},{\"id\":\"4VIcrx5Z3B\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Company Procedures\",\"col\":3}}]",
+ "creation": "2023-11-10 01:59:56.256028",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-file",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Contract - Legal",
+ "links": [],
+ "modified": "2024-03-07 17:42:09.810673",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Contract - Legal",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 9.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "UAE Law",
+   "link_to": "UAE Law",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Company Procedures",
+   "link_to": "Company procedures",
+   "type": "DocType"
+  }
+ ],
+ "title": "Contract - Legal"
+}

@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-14 14:04:27.499671",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "manual_name",
+  "column_break_de6hn",
+  "description",
+  "section_break_x71h5",
+  "date_of_issuance",
+  "column_break_j6vxz",
+  "issued_by",
+  "section_break_rzgdd",
+  "date_of_review",
+  "column_break_eh3vx",
+  "reviewed_by",
+  "section_break_pqtdt",
+  "date_of_approval",
+  "column_break_x7kzu",
+  "approved_by",
+  "section_break_u9ij8",
+  "attach"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "manual_name",
+   "fieldtype": "Data",
+   "label": "Policy Name"
+  },
+  {
+   "fieldname": "column_break_de6hn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_x71h5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "date_of_issuance",
+   "fieldtype": "Date",
+   "label": "Date of Issuance"
+  },
+  {
+   "fieldname": "column_break_j6vxz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "issued_by",
+   "fieldtype": "Data",
+   "label": "Issued By"
+  },
+  {
+   "fieldname": "section_break_rzgdd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "date_of_review",
+   "fieldtype": "Date",
+   "label": "Date of Review"
+  },
+  {
+   "fieldname": "column_break_eh3vx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "reviewed_by",
+   "fieldtype": "Data",
+   "label": "Reviewed By"
+  },
+  {
+   "fieldname": "section_break_pqtdt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "date_of_approval",
+   "fieldtype": "Date",
+   "label": "Date of Approval"
+  },
+  {
+   "fieldname": "column_break_x7kzu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "approved_by",
+   "fieldtype": "Data",
+   "label": "Approved By"
+  },
+  {
+   "fieldname": "section_break_u9ij8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-14 14:04:27.499671",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "ESG Policy Form",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

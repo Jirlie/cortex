@@ -1,0 +1,346 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_number}",
+ "creation": "2023-11-15 05:16:14.763820",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_yfowp",
+  "time",
+  "column_break_c2pgj",
+  "project_number",
+  "column_break_bgnpz",
+  "project_name",
+  "section_break_ng39t",
+  "country",
+  "column_break_yrjro",
+  "city",
+  "column_break_cp4pp",
+  "area",
+  "section_break_nmmcb",
+  "location",
+  "column_break_ldij4",
+  "client",
+  "pmc",
+  "consultant",
+  "main_contractor",
+  "estimated_budget",
+  "currency",
+  "section_break_qelao",
+  "expected_start_date",
+  "column_break_7ueut",
+  "expected_end_date",
+  "column_break_lq9ik",
+  "duration_months",
+  "section_break_o9wzx",
+  "specs",
+  "column_break_hidjm",
+  "standards_and_requirements",
+  "column_break_6iwor",
+  "plan",
+  "column_break_h53o4",
+  "tender_specs",
+  "section_break_4wuqp",
+  "suppliers",
+  "column_break_uc3o0",
+  "awarded",
+  "column_break_jrzlo",
+  "final_budgett"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "project_number.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Proposal test",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.country",
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.city",
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.location",
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.client",
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.pmc",
+   "fieldname": "pmc",
+   "fieldtype": "Link",
+   "label": "PMC",
+   "options": "PMC",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.consualtant",
+   "fieldname": "consultant",
+   "fieldtype": "Link",
+   "label": "Consultant",
+   "options": "Consultant",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.main_contractor",
+   "fieldname": "main_contractor",
+   "fieldtype": "Link",
+   "label": "Main Contractor",
+   "options": "Contractor",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.estimated_budget",
+   "fieldname": "estimated_budget",
+   "fieldtype": "Float",
+   "label": "Estimated Budget",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.currency",
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_number.duration",
+   "fieldname": "duration_months",
+   "fieldtype": "Data",
+   "label": "Duration (Months)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "specs",
+   "fieldtype": "Link",
+   "label": "Specs",
+   "options": "Specs"
+  },
+  {
+   "fieldname": "standards_and_requirements",
+   "fieldtype": "Link",
+   "label": "Standards and Requirements",
+   "options": "Standards and Requirements"
+  },
+  {
+   "fieldname": "plan",
+   "fieldtype": "Link",
+   "label": "Plan",
+   "options": "Plan"
+  },
+  {
+   "fieldname": "column_break_yfowp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_c2pgj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ng39t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yrjro",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.area",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cp4pp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nmmcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ldij4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qelao",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "project_number.expected_start_date",
+   "fieldname": "expected_start_date",
+   "fieldtype": "Data",
+   "label": "Expected Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_7ueut",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_number.expected_end_date",
+   "fieldname": "expected_end_date",
+   "fieldtype": "Data",
+   "label": "Expected End Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lq9ik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_o9wzx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hidjm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6iwor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tender_specs",
+   "fieldtype": "Link",
+   "label": "Tender Specs",
+   "options": "Tender Specs"
+  },
+  {
+   "fieldname": "column_break_h53o4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4wuqp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "suppliers",
+   "fieldtype": "Link",
+   "label": "Suppliers",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_uc3o0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "awarded",
+   "fieldtype": "Select",
+   "label": "Awarded",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_jrzlo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final_budgett",
+   "fieldtype": "Currency",
+   "label": "Final Budget"
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Link",
+   "label": "Project Number",
+   "options": "Proposal test",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bgnpz",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "make_attachments_public": 1,
+ "modified": "2024-02-27 16:27:21.317689",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Tender List",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Green",
+   "title": "Awarded"
+  },
+  {
+   "color": "Red",
+   "title": "Not Awarded"
+  }
+ ],
+ "title_field": "project_name"
+}

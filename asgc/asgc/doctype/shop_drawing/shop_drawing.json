@@ -1,0 +1,520 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 21:26:12.642575",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_drawing_type",
+  "section_break_5xsgp",
+  "employer",
+  "column_break_jdpbf",
+  "employer_representative",
+  "column_break_i06wr",
+  "pmc__engineer",
+  "column_break_dkmah",
+  "supervision_consultant",
+  "column_break_csplt",
+  "contractor",
+  "section_break_ronhr",
+  "shop_drawing_submittal_form",
+  "section_break_lbkbm",
+  "project_title",
+  "section_break_bwz9y",
+  "submittal_ref",
+  "column_break_qp8i4",
+  "date",
+  "column_break_ywhf4",
+  "rev",
+  "section_break_hfp8k",
+  "client",
+  "consultant",
+  "contractor2",
+  "section_break_6vqa6",
+  "drawing_title",
+  "section_break_8meyi",
+  "drawing_prepared_by",
+  "column_break_edck9",
+  "signature_with_date",
+  "discipline_section",
+  "architecture",
+  "column_break_tcihh",
+  "structural",
+  "column_break_g8vbi",
+  "vt",
+  "column_break_viif5",
+  "landscape",
+  "column_break_ixusv",
+  "interior_design",
+  "column_break_dd3ok",
+  "ac",
+  "column_break_aogk4",
+  "civil__infra",
+  "column_break_hvetg",
+  "mechanical",
+  "column_break_kkyux",
+  "electrical",
+  "column_break_mjgli",
+  "plumbing",
+  "column_break_pj8nv",
+  "others",
+  "material_details_section",
+  "shop_drawing_form",
+  "section_break_arpzq",
+  "additional_notes",
+  "section_break_ab2pk",
+  "contractors_authorised_signatory",
+  "date1",
+  "column_break_8plny",
+  "supervision_consultants_received_signature",
+  "date2",
+  "section_break_bgtrk",
+  "comments",
+  "column_break_f78j7",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "section_break_pvzxo",
+  "name1",
+  "contractors_received_signature",
+  "column_break_jbxyj",
+  "date4",
+  "section_break_zqxp0",
+  "name3",
+  "signature",
+  "column_break_ynsr3",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "submittal_ref",
+   "fieldtype": "Data",
+   "label": "Submittal Ref"
+  },
+  {
+   "fieldname": "column_break_qp8i4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_ywhf4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_hfp8k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "discipline_section",
+   "fieldtype": "Section Break",
+   "label": "Discipline"
+  },
+  {
+   "default": "0",
+   "fieldname": "architecture",
+   "fieldtype": "Check",
+   "label": "Architecture"
+  },
+  {
+   "fieldname": "column_break_tcihh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "structural",
+   "fieldtype": "Check",
+   "label": "Structural"
+  },
+  {
+   "fieldname": "column_break_g8vbi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "civil__infra",
+   "fieldtype": "Check",
+   "label": "Civil / Infra"
+  },
+  {
+   "fieldname": "column_break_viif5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "mechanical",
+   "fieldtype": "Check",
+   "label": "Mechanical"
+  },
+  {
+   "fieldname": "column_break_ixusv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "vt",
+   "fieldtype": "Check",
+   "label": "VT"
+  },
+  {
+   "fieldname": "column_break_dd3ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "landscape",
+   "fieldtype": "Check",
+   "label": "Landscape"
+  },
+  {
+   "default": "0",
+   "fieldname": "interior_design",
+   "fieldtype": "Check",
+   "label": "Interior Design"
+  },
+  {
+   "fieldname": "column_break_aogk4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "material_details_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_arpzq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contractors_authorised_signatory",
+   "fieldtype": "Signature",
+   "label": "Contractor's Authorised Signatory"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_8plny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervision_consultants_received_signature",
+   "fieldtype": "Signature",
+   "label": "Supervision Consultant's Received Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_bgtrk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Text",
+   "label": "Supervision Consultant's Remarks"
+  },
+  {
+   "fieldname": "column_break_f78j7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "a",
+   "fieldtype": "Check",
+   "label": "Code A - Approved"
+  },
+  {
+   "default": "0",
+   "fieldname": "b",
+   "fieldtype": "Check",
+   "label": "Code B - Approved with Comments"
+  },
+  {
+   "default": "0",
+   "fieldname": "c",
+   "fieldtype": "Check",
+   "label": "Code C - Revise and Resubmit"
+  },
+  {
+   "default": "0",
+   "fieldname": "d",
+   "fieldtype": "Check",
+   "label": "Code D - Rejected"
+  },
+  {
+   "default": "0",
+   "fieldname": "e",
+   "fieldtype": "Check",
+   "label": "Code E - For Information"
+  },
+  {
+   "fieldname": "contractors_received_signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_jbxyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date4",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_zqxp0",
+   "fieldtype": "Section Break",
+   "label": "Received by Contractor"
+  },
+  {
+   "fieldname": "shop_drawing_type",
+   "fieldtype": "Select",
+   "label": "Shop Drawing Type",
+   "options": "\nElectrical\nPlumbing\nHVAC\nFire Fighting\nBMS"
+  },
+  {
+   "fieldname": "section_break_5xsgp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "column_break_jdpbf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employer_representative",
+   "fieldtype": "Data",
+   "label": "Employer Representative"
+  },
+  {
+   "fieldname": "column_break_i06wr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pmc__engineer",
+   "fieldtype": "Link",
+   "label": "PMC / Engineer",
+   "options": "PMC"
+  },
+  {
+   "fieldname": "column_break_dkmah",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervision_consultant",
+   "fieldtype": "Link",
+   "label": "Supervision Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "column_break_csplt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "section_break_ronhr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shop_drawing_submittal_form",
+   "fieldtype": "HTML",
+   "label": "SHOP DRAWING SUBMITTAL FORM",
+   "options": "<table cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"15\" style=\"background-color: #bfbfbf; border-bottom: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; height: 30px; text-align: center; vertical-align: middle; white-space: nowrap; width: 957px;\"><span style=\"font-size: 19px;\"><strong><span style='font-family: \"Century Gothic\",sans-serif;'><span style=\"color: black;\">SHOP DRAWING SUBMITTAL FORM</span></span></strong></span></td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
+  },
+  {
+   "fieldname": "section_break_lbkbm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Data",
+   "label": "Project Title"
+  },
+  {
+   "fieldname": "section_break_bwz9y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "consultant",
+   "fieldtype": "Link",
+   "label": "Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "contractor2",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "section_break_6vqa6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "drawing_title",
+   "fieldtype": "Data",
+   "label": "Drawing Title"
+  },
+  {
+   "fieldname": "section_break_8meyi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "drawing_prepared_by",
+   "fieldtype": "Data",
+   "label": "Drawing Prepared by"
+  },
+  {
+   "fieldname": "column_break_edck9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature_with_date",
+   "fieldtype": "Signature",
+   "label": "Signature (with date)"
+  },
+  {
+   "default": "0",
+   "fieldname": "ac",
+   "fieldtype": "Check",
+   "label": "AC"
+  },
+  {
+   "fieldname": "column_break_kkyux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical",
+   "fieldtype": "Check",
+   "label": "Electrical"
+  },
+  {
+   "fieldname": "column_break_mjgli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "plumbing",
+   "fieldtype": "Check",
+   "label": "Plumbing"
+  },
+  {
+   "fieldname": "column_break_pj8nv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hvetg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shop_drawing_form",
+   "fieldtype": "Table",
+   "label": "Shop Drawing",
+   "options": "Shop Drawing Form"
+  },
+  {
+   "fieldname": "additional_notes",
+   "fieldtype": "HTML",
+   "label": "Additional Notes",
+   "options": "<table cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"15\" style=\"border-bottom: none; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; height: 98px; text-align: left; vertical-align: middle; white-space: normal; width: 957px;\"><span style=\"font-size: 13px;\"><strong><span style=\"color: black;\"><span style=\"font-family: Arial,sans-serif;\"><span style=\"font-size: 10pt;\"><span style=\"color: black;\"><strong><u><span style=\"font-family: Arial,sans-serif;\">Additional Notes:</span></u></strong></span></span><br>\n\t\t\t<span style=\"font-size: 10pt;\"><span style=\"color: black;\"><strong><span style=\"font-family: Arial,sans-serif;\">* Ensure that all drawings adhere to the project specifications and standards.<br>\n\t\t\t* If any changes are required, the contractor must provide revised drawings with the necessary modifications.<br>\n\t\t\t* All drawings must be legible, accurately scaled, and include appropriate annotations.<br>\n\t\t\t* The contractor is responsible for any errors or omissions in the submitted drawings.</span></strong></span></span></span></span></strong></span></td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
+  },
+  {
+   "description": "The Contractor certifies that the shop drawings submitted herewith are in compliance with the Contract drawings and specifications unless specifically noted / highlighted here or on the attached drawings.",
+   "fieldname": "section_break_ab2pk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_pvzxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_ynsr3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-07 13:29:21.670894",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Shop Drawing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

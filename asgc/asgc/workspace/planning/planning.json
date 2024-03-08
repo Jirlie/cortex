@@ -1,0 +1,56 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ini5pdX4R1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Planning</span>\",\"col\":12}},{\"id\":\"SYDClpDYZi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planning Manual\",\"col\":3}},{\"id\":\"wbr6iL2kiy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planning Policy\",\"col\":3}},{\"id\":\"mypHwyuyme\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planning Forms\",\"col\":3}},{\"id\":\"LKmAo1pKgk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planning Sop's\",\"col\":3}}]",
+ "creation": "2023-11-10 02:00:47.571454",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Planning",
+ "links": [],
+ "modified": "2024-03-07 17:42:10.423892",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Planning",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 18.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planning Manual",
+   "link_to": "Planning Manual",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planning Policy",
+   "link_to": "Planning Policy",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planning Forms",
+   "link_to": "Planning Forms",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planning Sop's",
+   "link_to": "Planning SOP",
+   "type": "DocType"
+  }
+ ],
+ "title": "Planning"
+}

@@ -1,0 +1,321 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_number}",
+ "creation": "2024-01-16 19:36:17.998407",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_yfowp",
+  "time",
+  "column_break_c2pgj",
+  "project_number",
+  "column_break_bgnpz",
+  "project_name",
+  "section_break_ng39t",
+  "country",
+  "column_break_yrjro",
+  "city",
+  "column_break_cp4pp",
+  "area",
+  "section_break_nmmcb",
+  "location",
+  "column_break_ldij4",
+  "client",
+  "pmc",
+  "consultant",
+  "main_contractor",
+  "estimated_budget",
+  "currency",
+  "section_break_qelao",
+  "expected_start_date",
+  "column_break_7ueut",
+  "expected_end_date",
+  "column_break_lq9ik",
+  "duration_months",
+  "section_break_o9wzx",
+  "specs",
+  "column_break_hidjm",
+  "standards_and_requirements",
+  "column_break_6iwor",
+  "plan",
+  "column_break_h53o4",
+  "tender_specs",
+  "section_break_4wuqp",
+  "suppliers",
+  "column_break_uc3o0",
+  "awarded",
+  "column_break_jrzlo",
+  "final_budgett"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_yfowp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_c2pgj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Data",
+   "label": "Project Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bgnpz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "section_break_ng39t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_yrjro",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "City"
+  },
+  {
+   "fieldname": "column_break_cp4pp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "section_break_nmmcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "column_break_ldij4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "pmc",
+   "fieldtype": "Link",
+   "label": "PMC",
+   "options": "PMC"
+  },
+  {
+   "fieldname": "consultant",
+   "fieldtype": "Link",
+   "label": "Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "Link",
+   "label": "Main Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "estimated_budget",
+   "fieldtype": "Float",
+   "label": "Estimated Budget"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "section_break_qelao",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expected_start_date",
+   "fieldtype": "Date",
+   "label": "Expected Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_7ueut",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expected_end_date",
+   "fieldtype": "Date",
+   "label": "Expected End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lq9ik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "duration_months",
+   "fieldtype": "Data",
+   "label": "Duration (Months)"
+  },
+  {
+   "fieldname": "section_break_o9wzx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specs",
+   "fieldtype": "Link",
+   "label": "Specs",
+   "options": "Specs"
+  },
+  {
+   "fieldname": "column_break_hidjm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "standards_and_requirements",
+   "fieldtype": "Link",
+   "label": "Standards and Requirements",
+   "options": "Standards and Requirements"
+  },
+  {
+   "fieldname": "column_break_6iwor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plan",
+   "fieldtype": "Link",
+   "label": "Plan",
+   "options": "Plan"
+  },
+  {
+   "fieldname": "column_break_h53o4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tender_specs",
+   "fieldtype": "Link",
+   "label": "Tender Specs",
+   "options": "Tender Specs"
+  },
+  {
+   "fieldname": "section_break_4wuqp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "suppliers",
+   "fieldtype": "Link",
+   "label": "Suppliers",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_uc3o0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "awarded",
+   "fieldtype": "Select",
+   "label": "Awarded",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_jrzlo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final_budgett",
+   "fieldtype": "Currency",
+   "label": "Final Budget"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "make_attachments_public": 1,
+ "modified": "2024-02-27 16:34:45.976937",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Proposal",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Green",
+   "title": "Awarded"
+  },
+  {
+   "color": "Red",
+   "title": "Not Awarded"
+  }
+ ],
+ "title_field": "project_name"
+}

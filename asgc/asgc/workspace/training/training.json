@@ -1,0 +1,77 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"frDjZbZq1w\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Training</span>\",\"col\":12}},{\"id\":\"uhfcgFUA_9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Technical Training\",\"col\":3}},{\"id\":\"UbA47_TtjW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Management Training\",\"col\":3}},{\"id\":\"1pW9kXYyO0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work Methodology Training \",\"col\":3}},{\"id\":\"RSmrte7ZDj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Planning \",\"col\":3}},{\"id\":\"JCzqRT8JmL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Communication\",\"col\":3}},{\"id\":\"3QL4M-ll86\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Coordination \",\"col\":3}},{\"id\":\"hfKEizcVHn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Management\",\"col\":3}}]",
+ "creation": "2023-11-10 02:01:05.481372",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Training",
+ "links": [],
+ "modified": "2024-03-07 17:42:10.589490",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Training",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 21.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Technical Training",
+   "link_to": "Technical Training",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Management Training",
+   "link_to": "Management Training",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Work Methodology Training ",
+   "link_to": "Work Methodology Training",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Planning ",
+   "link_to": "Planning",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Communication",
+   "link_to": "Training Communication",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Coordination ",
+   "link_to": "Coordination",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Management",
+   "link_to": "Asset Management",
+   "type": "DocType"
+  }
+ ],
+ "title": "Training"
+}

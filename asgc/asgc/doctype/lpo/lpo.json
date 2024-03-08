@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-30 22:32:27.044434",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "column_break_64i7u",
+  "lpo_no",
+  "section_break_7oij9",
+  "project_no",
+  "column_break_u4tju",
+  "date",
+  "section_break_vsr7g",
+  "supplier",
+  "column_break_tvxbs",
+  "req_no",
+  "section_break_kh5gs",
+  "purchase_oder_item"
+ ],
+ "fields": [
+  {
+   "fetch_from": "project_no.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "column_break_64i7u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lpo_no",
+   "fieldtype": "Data",
+   "label": "LPO No"
+  },
+  {
+   "fieldname": "section_break_7oij9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Link",
+   "label": "Project No",
+   "options": "Projects Awarded"
+  },
+  {
+   "fieldname": "column_break_u4tju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vsr7g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_tvxbs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "req_no",
+   "fieldtype": "Data",
+   "label": "REQ No"
+  },
+  {
+   "fieldname": "section_break_kh5gs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "purchase_oder_item",
+   "fieldtype": "Table",
+   "label": "Purchase Oder Item",
+   "options": "Purchase Requisition Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-30 22:36:44.169620",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "LPO",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

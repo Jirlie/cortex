@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-07 13:19:01.984959",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "si_no",
+  "drawing_ref",
+  "drawing_no",
+  "specification_ref",
+  "description_of_drawing",
+  "location",
+  "rev",
+  "no_of_copies",
+  "remark"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "si_no",
+   "fieldtype": "Data",
+   "label": "SI No."
+  },
+  {
+   "columns": 1,
+   "fieldname": "drawing_ref",
+   "fieldtype": "Data",
+   "label": "Drawing Ref."
+  },
+  {
+   "columns": 1,
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No."
+  },
+  {
+   "columns": 1,
+   "fieldname": "specification_ref",
+   "fieldtype": "Data",
+   "label": "Specification Ref."
+  },
+  {
+   "columns": 2,
+   "fieldname": "description_of_drawing",
+   "fieldtype": "Data",
+   "label": "Description of Drawing"
+  },
+  {
+   "columns": 1,
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev."
+  },
+  {
+   "columns": 1,
+   "fieldname": "no_of_copies",
+   "fieldtype": "Data",
+   "label": "No. of Copies"
+  },
+  {
+   "columns": 1,
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-07 13:20:57.425192",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Shop Drawing Form",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

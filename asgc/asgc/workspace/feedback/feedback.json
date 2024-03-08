@@ -1,0 +1,36 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ku_rsYn6Bt\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FeedBack</span>\",\"col\":12}},{\"id\":\"rk8s5nYnLE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"About Solution\",\"col\":3}}]",
+ "creation": "2023-11-10 02:02:29.398552",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "message-1",
+ "idx": 0,
+ "is_hidden": 1,
+ "label": "FeedBack",
+ "links": [],
+ "modified": "2024-03-07 17:42:11.335124",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "FeedBack",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 34.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "About Solution",
+   "link_to": "About Solution",
+   "type": "DocType"
+  }
+ ],
+ "title": "FeedBack"
+}

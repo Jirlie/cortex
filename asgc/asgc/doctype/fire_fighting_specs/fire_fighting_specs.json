@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-31 09:53:13.874507",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fire_fighting_specs",
+  "descreption"
+ ],
+ "fields": [
+  {
+   "columns": 5,
+   "fieldname": "fire_fighting_specs",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Fire Fighting Specs",
+   "reqd": 1,
+   "width": "5"
+  },
+  {
+   "columns": 5,
+   "fieldname": "descreption",
+   "fieldtype": "Data",
+   "label": "Descreption",
+   "width": "5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 10:40:07.181237",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Fire Fighting Specs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

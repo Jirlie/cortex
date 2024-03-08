@@ -1,0 +1,650 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 21:18:18.147324",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tender_ifc_type",
+  "section_break_ei9op",
+  "employer",
+  "column_break_oz970",
+  "employer_representative",
+  "column_break_llqg3",
+  "pmc__engineer",
+  "column_break_5atyd",
+  "supervision_consultant",
+  "column_break_udvtp",
+  "contractor",
+  "section_break_paahu",
+  "tender_ifc_form",
+  "title",
+  "section_break_p6qxk",
+  "itt_ref_no",
+  "column_break_2crjw",
+  "date",
+  "column_break_zzt5j",
+  "rev",
+  "section_break_8wu1g",
+  "project_code",
+  "column_break_f5akq",
+  "project_name",
+  "section_break_ppmdx",
+  "location_address",
+  "column_break_r4hfu",
+  "location_city",
+  "section_break_yiyvf",
+  "employer__client",
+  "column_break_ndx5q",
+  "developer__owner",
+  "section_break_wm6ip",
+  "consultant",
+  "pmc",
+  "prepared_by",
+  "tender_information_section",
+  "plot__area",
+  "building_ref",
+  "section_break_ksjnl",
+  "material_submittal",
+  "column_break_f9er5",
+  "shop_drawing",
+  "column_break_ugkhb",
+  "technical_submittal",
+  "column_break_ylwyw",
+  "method_statement",
+  "column_break_orsed",
+  "rfi",
+  "column_break_jemkl",
+  "others",
+  "section_break_ipj83",
+  "contractor_submittal_ref",
+  "initiated_by_section",
+  "employer_check",
+  "column_break_daniq",
+  "engineer__pmc",
+  "column_break_lurso",
+  "supervision_consultant_check",
+  "column_break_6rfnq",
+  "contractor_check",
+  "column_break_3dqjo",
+  "others_specify",
+  "section_break_lgdn6",
+  "specify",
+  "reason_section",
+  "authority_requirement",
+  "column_break_u8sao",
+  "ldc_design_error",
+  "column_break_tu4yh",
+  "operator__tenant_request",
+  "column_break_36crq",
+  "employer_change",
+  "column_break_abz0r",
+  "contractor_change",
+  "column_break_kyh0o",
+  "others_specify2",
+  "section_break_swfc7",
+  "specify2",
+  "changes_to_section",
+  "drawing",
+  "column_break_mbuej",
+  "aesthetic",
+  "column_break_odry2",
+  "specification",
+  "column_break_h9axr",
+  "technical",
+  "column_break_iybzb",
+  "energy_requirements",
+  "column_break_gewt7",
+  "sustainability_requirements",
+  "column_break_pjrb4",
+  "others_specify4",
+  "section_break_dbigp",
+  "specify3",
+  "section_break_6e97l",
+  "project_description",
+  "tender_bond",
+  "section_break_g33ft",
+  "submission_date",
+  "column_break_u6oz5",
+  "tender_award_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "tender_ifc_type",
+   "fieldtype": "Select",
+   "label": "Tender IFC Type",
+   "options": "\nElectrical\nPlumbing\nHVAC\nFire Fighting\nBMS"
+  },
+  {
+   "fieldname": "section_break_ei9op",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "column_break_oz970",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employer_representative",
+   "fieldtype": "Data",
+   "label": "Employer Representative"
+  },
+  {
+   "fieldname": "column_break_llqg3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pmc__engineer",
+   "fieldtype": "Link",
+   "label": "PMC / Engineer",
+   "options": "PMC"
+  },
+  {
+   "fieldname": "column_break_5atyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervision_consultant",
+   "fieldtype": "Link",
+   "label": "Supervision Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "column_break_udvtp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "tender_ifc_form",
+   "fieldtype": "HTML",
+   "options": "<center>\n<h4>\nTENDER IFC FORM\n</h4>\n</center>"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "section_break_p6qxk",
+   "fieldtype": "Section Break",
+   "label": "GENERAL INFORMATION"
+  },
+  {
+   "fieldname": "section_break_paahu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "itt_ref_no",
+   "fieldtype": "Data",
+   "label": "ITT Ref No."
+  },
+  {
+   "fieldname": "column_break_2crjw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_zzt5j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev."
+  },
+  {
+   "fieldname": "section_break_8wu1g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_code",
+   "fieldtype": "Link",
+   "label": "Project Code",
+   "options": "Projects Awarded"
+  },
+  {
+   "fieldname": "column_break_f5akq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_code.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "section_break_ppmdx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location_address",
+   "fieldtype": "Data",
+   "label": "Location Address"
+  },
+  {
+   "fieldname": "column_break_r4hfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "project_code.city",
+   "fieldname": "location_city",
+   "fieldtype": "Data",
+   "label": "Location City"
+  },
+  {
+   "fieldname": "section_break_yiyvf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employer__client",
+   "fieldtype": "Link",
+   "label": "Employer / Client",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_ndx5q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "developer__owner",
+   "fieldtype": "Data",
+   "label": "Developer / Owner"
+  },
+  {
+   "fieldname": "section_break_wm6ip",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "consultant",
+   "fieldtype": "Link",
+   "label": "Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "pmc",
+   "fieldtype": "Link",
+   "label": "PMC",
+   "options": "PMC"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Link",
+   "label": "Prepared by",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "tender_information_section",
+   "fieldtype": "Section Break",
+   "label": "TENDER INFORMATION"
+  },
+  {
+   "fieldname": "plot__area",
+   "fieldtype": "Data",
+   "label": "Plot / Area"
+  },
+  {
+   "fieldname": "building_ref",
+   "fieldtype": "Data",
+   "label": "Building Ref"
+  },
+  {
+   "default": "0",
+   "fieldname": "material_submittal",
+   "fieldtype": "Check",
+   "label": "Material Submittal"
+  },
+  {
+   "fieldname": "column_break_f9er5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "shop_drawing",
+   "fieldtype": "Check",
+   "label": "Shop Drawing"
+  },
+  {
+   "fieldname": "column_break_ugkhb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "technical_submittal",
+   "fieldtype": "Check",
+   "label": "Technical Submittal"
+  },
+  {
+   "fieldname": "column_break_ylwyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "method_statement",
+   "fieldtype": "Check",
+   "label": "Method Statement"
+  },
+  {
+   "fieldname": "column_break_orsed",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "rfi",
+   "fieldtype": "Check",
+   "label": "RFI"
+  },
+  {
+   "fieldname": "column_break_jemkl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "section_break_ksjnl",
+   "fieldtype": "Section Break",
+   "label": "Contractor Submittal"
+  },
+  {
+   "fieldname": "section_break_ipj83",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contractor_submittal_ref",
+   "fieldtype": "Data",
+   "label": "Contractor Submittal Ref"
+  },
+  {
+   "fieldname": "initiated_by_section",
+   "fieldtype": "Section Break",
+   "label": "Initiated by"
+  },
+  {
+   "default": "0",
+   "fieldname": "employer_check",
+   "fieldtype": "Check",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "column_break_daniq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "engineer__pmc",
+   "fieldtype": "Check",
+   "label": "Engineer / PMC"
+  },
+  {
+   "fieldname": "column_break_lurso",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "supervision_consultant_check",
+   "fieldtype": "Check",
+   "label": "Supervision Consultant"
+  },
+  {
+   "fieldname": "column_break_6rfnq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "contractor_check",
+   "fieldtype": "Check",
+   "label": "Contractor"
+  },
+  {
+   "fieldname": "column_break_3dqjo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others_specify",
+   "fieldtype": "Check",
+   "label": "Others (Specify)"
+  },
+  {
+   "depends_on": "eval:doc.others_specify",
+   "fieldname": "section_break_lgdn6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.others_specify",
+   "fieldname": "specify",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "fieldname": "reason_section",
+   "fieldtype": "Section Break",
+   "label": "Reason"
+  },
+  {
+   "default": "0",
+   "fieldname": "authority_requirement",
+   "fieldtype": "Check",
+   "label": "Authority Requirement"
+  },
+  {
+   "fieldname": "column_break_u8sao",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ldc_design_error",
+   "fieldtype": "Check",
+   "label": "LDC Design Error"
+  },
+  {
+   "fieldname": "column_break_tu4yh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "operator__tenant_request",
+   "fieldtype": "Check",
+   "label": "Operator / Tenant Request"
+  },
+  {
+   "fieldname": "column_break_36crq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "employer_change",
+   "fieldtype": "Check",
+   "label": "Employer Change"
+  },
+  {
+   "fieldname": "column_break_abz0r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "contractor_change",
+   "fieldtype": "Check",
+   "label": "Contractor Change"
+  },
+  {
+   "fieldname": "column_break_kyh0o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others_specify2",
+   "fieldtype": "Check",
+   "label": "Others (Specify)"
+  },
+  {
+   "depends_on": "eval:doc.others_specify2",
+   "fieldname": "section_break_swfc7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.others_specify2",
+   "fieldname": "specify2",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "fieldname": "changes_to_section",
+   "fieldtype": "Section Break",
+   "label": "Changes to"
+  },
+  {
+   "default": "0",
+   "fieldname": "drawing",
+   "fieldtype": "Check",
+   "label": "Drawing"
+  },
+  {
+   "fieldname": "column_break_mbuej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "aesthetic",
+   "fieldtype": "Check",
+   "label": "Aesthetic"
+  },
+  {
+   "fieldname": "column_break_odry2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "specification",
+   "fieldtype": "Check",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "column_break_h9axr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_iybzb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "energy_requirements",
+   "fieldtype": "Check",
+   "label": "Energy Req"
+  },
+  {
+   "fieldname": "column_break_gewt7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sustainability_requirements",
+   "fieldtype": "Check",
+   "label": "Sustainability Req"
+  },
+  {
+   "fieldname": "column_break_pjrb4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.others_specify4",
+   "fieldname": "section_break_dbigp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.others_specify4",
+   "fieldname": "specify3",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "default": "0",
+   "fieldname": "others_specify4",
+   "fieldtype": "Check",
+   "label": "Others (Specify)"
+  },
+  {
+   "default": "0",
+   "fieldname": "technical",
+   "fieldtype": "Check",
+   "label": "Technical"
+  },
+  {
+   "fieldname": "section_break_6e97l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_description",
+   "fieldtype": "Small Text",
+   "label": "Project Description"
+  },
+  {
+   "fieldname": "tender_bond",
+   "fieldtype": "Data",
+   "label": "Tender Bond"
+  },
+  {
+   "fieldname": "section_break_g33ft",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "submission_date",
+   "fieldtype": "Date",
+   "label": "Submission Date"
+  },
+  {
+   "fieldname": "column_break_u6oz5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "tender_award_date",
+   "fieldtype": "Date",
+   "label": "Tender Award Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 16:42:22.487826",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Tender IFCs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

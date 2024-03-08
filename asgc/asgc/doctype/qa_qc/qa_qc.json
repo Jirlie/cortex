@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:project_name",
+ "creation": "2024-01-06 16:00:26.081599",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "mir_form",
+  "msra_form",
+  "rfi_form",
+  "wir_form",
+  "sor_form",
+  "ncr_form",
+  "clearance__form",
+  "tc_form"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Proposal",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "mir_form",
+   "fieldtype": "Table",
+   "label": "MIR FORM",
+   "options": "MIR FORM"
+  },
+  {
+   "fieldname": "msra_form",
+   "fieldtype": "Table",
+   "label": "MSRA FORM",
+   "options": "MSRA FORM"
+  },
+  {
+   "fieldname": "rfi_form",
+   "fieldtype": "Table",
+   "label": "RFI FORM",
+   "options": "RFI FORM"
+  },
+  {
+   "fieldname": "wir_form",
+   "fieldtype": "Table",
+   "label": "WIR FORM",
+   "options": "WIR FORM"
+  },
+  {
+   "fieldname": "sor_form",
+   "fieldtype": "Table",
+   "label": "SOR FORM",
+   "options": "SOR FORM"
+  },
+  {
+   "fieldname": "ncr_form",
+   "fieldtype": "Table",
+   "label": "NCR FORM",
+   "options": "NCR FORM"
+  },
+  {
+   "fieldname": "clearance__form",
+   "fieldtype": "Table",
+   "label": "Clearance  FORM",
+   "options": "Clearance  FORM"
+  },
+  {
+   "fieldname": "tc_form",
+   "fieldtype": "Table",
+   "label": "TC FORM",
+   "options": "TC FORM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-27 16:28:25.735637",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "QA-QC",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

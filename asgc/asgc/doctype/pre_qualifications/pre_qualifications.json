@@ -1,0 +1,721 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 21:43:36.603727",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pre_qualification_type",
+  "section_break_l7in0",
+  "employer",
+  "column_break_pop51",
+  "employer_representative",
+  "column_break_ndbsl",
+  "pmc__engineer",
+  "column_break_vk7xy",
+  "supervision_consultant",
+  "column_break_dm88j",
+  "contractor",
+  "section_break_r4yt0",
+  "pre_qualification_form",
+  "section_break_wx5wu",
+  "company_name",
+  "address",
+  "section_break_lykld",
+  "phone_number",
+  "email",
+  "column_break_pe6ir",
+  "fax_number",
+  "website",
+  "legal_information_section",
+  "legal_structure",
+  "column_break_gjnuj",
+  "corporation",
+  "column_break_ln78k",
+  "llc",
+  "column_break_g0gp9",
+  "sole_proprietorship",
+  "column_break_akomq",
+  "other",
+  "specify",
+  "section_break_x8m6i",
+  "registration__license_number",
+  "date_of_establishment",
+  "tax_identification_number",
+  "financial_information_section",
+  "annual_revenue",
+  "bonding_capacity",
+  "current_financial_statements_attach_if_available",
+  "bank_references",
+  "experience_and_qualifications_section",
+  "number_of_years_in_business",
+  "similar_projects",
+  "professional_affiliations_if_any",
+  "iso_certificates_attach_if_available_section",
+  "9001",
+  "45001",
+  "14001",
+  "remark",
+  "section_break_psyey",
+  "other_licenses_and_certifications_attach_if_available",
+  "policies_attach_if_available_section",
+  "quality_policy",
+  "hse_policy",
+  "environmental_policy",
+  "remark2",
+  "personnel_and_resources_section",
+  "number_of_employees",
+  "key_personnel",
+  "section_break_cwktf",
+  "list_of_equipment_and_resources_available",
+  "health_and_safety_section",
+  "recordable_incidents_in_the_last_3_years",
+  "lost_time_incidents",
+  "safety_policies_and_procedures",
+  "insurance_coverage_section",
+  "general_liability",
+  "workers_compensation",
+  "builders_risk",
+  "additional_information_section",
+  "q1",
+  "column_break_6ccyz",
+  "y1",
+  "column_break_goleg",
+  "n1",
+  "column_break_gj9zn",
+  "r1",
+  "specify2",
+  "section_break_yqdyr",
+  "q2",
+  "column_break_iqkna",
+  "y2",
+  "column_break_zrjor",
+  "n2",
+  "column_break_1qj21",
+  "r2",
+  "specify3",
+  "section_break_lnalw",
+  "q3",
+  "column_break_4qks2",
+  "y3",
+  "column_break_edmxx",
+  "n3",
+  "column_break_yqbt1",
+  "r3",
+  "specify4",
+  "section_break_r3ajh",
+  "q4",
+  "column_break_tyjrg",
+  "y4",
+  "column_break_7zxjj",
+  "n4",
+  "column_break_sauns",
+  "r4",
+  "company_managing_director_declaration_section",
+  "declare",
+  "column_break_qjiwy",
+  "name1",
+  "date",
+  "column_break_mzk4b",
+  "signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "pre_qualification_type",
+   "fieldtype": "Select",
+   "label": "Pre Qualification Type",
+   "options": "\nElectrical\nPlumbing\nHVAC\nFire Fighting\nBMS"
+  },
+  {
+   "fieldname": "section_break_l7in0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "column_break_pop51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employer_representative",
+   "fieldtype": "Data",
+   "label": "Employer Representative"
+  },
+  {
+   "fieldname": "column_break_ndbsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pmc__engineer",
+   "fieldtype": "Link",
+   "label": "PMC / Engineer",
+   "options": "PMC"
+  },
+  {
+   "fieldname": "column_break_vk7xy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervision_consultant",
+   "fieldtype": "Link",
+   "label": "Supervision Consultant",
+   "options": "Consultant"
+  },
+  {
+   "fieldname": "column_break_dm88j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "section_break_r4yt0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pre_qualification_form",
+   "fieldtype": "HTML",
+   "label": "PRE-QUALIFICATION FORM",
+   "options": "<table cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"15\" style=\"background-color: #bfbfbf; border-bottom: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; height: 26px; text-align: center; vertical-align: middle; white-space: nowrap; width: 1081px;\"><span style=\"font-size: 19px;\"><strong><span style='font-family: \"Century Gothic\",sans-serif;'><span style=\"color: black;\">PRE-QUALIFICATION FORM</span></span></strong></span></td>\n\t\t</tr>\n\t</tbody>\n</table>\n"
+  },
+  {
+   "fieldname": "section_break_wx5wu",
+   "fieldtype": "Section Break",
+   "label": "Company Profile"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "column_break_pe6ir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax_number",
+   "fieldtype": "Data",
+   "label": "Fax Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_break_lykld",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "legal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Legal Information"
+  },
+  {
+   "fieldname": "legal_structure",
+   "fieldtype": "Heading",
+   "label": "Legal Structure"
+  },
+  {
+   "fieldname": "column_break_gjnuj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "corporation",
+   "fieldtype": "Check",
+   "label": "Corporation"
+  },
+  {
+   "fieldname": "column_break_ln78k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "llc",
+   "fieldtype": "Check",
+   "label": "LLC"
+  },
+  {
+   "fieldname": "column_break_g0gp9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sole_proprietorship",
+   "fieldtype": "Check",
+   "label": "Sole Proprietorship"
+  },
+  {
+   "fieldname": "column_break_akomq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "depends_on": "eval:doc.other",
+   "fieldname": "specify",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "fieldname": "registration__license_number",
+   "fieldtype": "Data",
+   "label": "Registration / License Number"
+  },
+  {
+   "fieldname": "section_break_x8m6i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_establishment",
+   "fieldtype": "Date",
+   "label": "Date of Establishment"
+  },
+  {
+   "fieldname": "tax_identification_number",
+   "fieldtype": "Data",
+   "label": "Tax Identification Number"
+  },
+  {
+   "fieldname": "financial_information_section",
+   "fieldtype": "Section Break",
+   "label": "Financial Information"
+  },
+  {
+   "fieldname": "annual_revenue",
+   "fieldtype": "Data",
+   "label": "Annual Revenue "
+  },
+  {
+   "fieldname": "bonding_capacity",
+   "fieldtype": "Data",
+   "label": "Bonding Capacity"
+  },
+  {
+   "fieldname": "current_financial_statements_attach_if_available",
+   "fieldtype": "Data",
+   "label": "Current Financial Statements (attach if available)"
+  },
+  {
+   "fieldname": "bank_references",
+   "fieldtype": "Data",
+   "label": "Bank References"
+  },
+  {
+   "fieldname": "experience_and_qualifications_section",
+   "fieldtype": "Section Break",
+   "label": "Experience and Qualifications"
+  },
+  {
+   "fieldname": "number_of_years_in_business",
+   "fieldtype": "Data",
+   "label": "Number of Years in Business"
+  },
+  {
+   "description": "List of Similar Projects Completed in the Last 5 Years",
+   "fieldname": "similar_projects",
+   "fieldtype": "Table",
+   "label": "Similar Projects",
+   "options": "Qualifications Table"
+  },
+  {
+   "fieldname": "professional_affiliations_if_any",
+   "fieldtype": "Data",
+   "label": "Professional Affiliations (if any)"
+  },
+  {
+   "fieldname": "iso_certificates_attach_if_available_section",
+   "fieldtype": "Section Break",
+   "label": "ISO Certificates (attach if available)"
+  },
+  {
+   "default": "0",
+   "fieldname": "9001",
+   "fieldtype": "Check",
+   "label": " 9001:2015 - Quality Management System"
+  },
+  {
+   "default": "0",
+   "fieldname": "45001",
+   "fieldtype": "Check",
+   "label": " 45001:2018 - Health & Safety Management System"
+  },
+  {
+   "default": "0",
+   "fieldname": "14001",
+   "fieldtype": "Check",
+   "label": " 14001:2015 - Environmental Management System"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_psyey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "other_licenses_and_certifications_attach_if_available",
+   "fieldtype": "Data",
+   "label": "Other Licenses and Certifications (attach if available)"
+  },
+  {
+   "fieldname": "policies_attach_if_available_section",
+   "fieldtype": "Section Break",
+   "label": "Policies (attach if available)"
+  },
+  {
+   "default": "0",
+   "fieldname": "quality_policy",
+   "fieldtype": "Check",
+   "label": "Quality Policy"
+  },
+  {
+   "default": "0",
+   "fieldname": "hse_policy",
+   "fieldtype": "Check",
+   "label": "HSE Policy"
+  },
+  {
+   "default": "0",
+   "fieldname": "environmental_policy",
+   "fieldtype": "Check",
+   "label": "Environmental Policy"
+  },
+  {
+   "fieldname": "remark2",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "personnel_and_resources_section",
+   "fieldtype": "Section Break",
+   "label": "Personnel and Resources"
+  },
+  {
+   "fieldname": "number_of_employees",
+   "fieldtype": "Data",
+   "label": "Number of Employees"
+  },
+  {
+   "fieldname": "key_personnel",
+   "fieldtype": "Table",
+   "label": "Key Personnel",
+   "options": "Qualifications Key Personnel"
+  },
+  {
+   "fieldname": "section_break_cwktf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "list_of_equipment_and_resources_available",
+   "fieldtype": "Small Text",
+   "label": "List of Equipment and Resources Available"
+  },
+  {
+   "fieldname": "health_and_safety_section",
+   "fieldtype": "Section Break",
+   "label": "Health and Safety"
+  },
+  {
+   "fieldname": "recordable_incidents_in_the_last_3_years",
+   "fieldtype": "Data",
+   "label": "Recordable Incidents in the Last 3 Years"
+  },
+  {
+   "fieldname": "lost_time_incidents",
+   "fieldtype": "Data",
+   "label": "Lost Time Incidents"
+  },
+  {
+   "fieldname": "safety_policies_and_procedures",
+   "fieldtype": "Data",
+   "label": "Safety Policies and Procedures"
+  },
+  {
+   "fieldname": "insurance_coverage_section",
+   "fieldtype": "Section Break",
+   "label": "Insurance Coverage"
+  },
+  {
+   "fieldname": "general_liability",
+   "fieldtype": "Data",
+   "label": "General Liability"
+  },
+  {
+   "fieldname": "workers_compensation",
+   "fieldtype": "Data",
+   "label": "Workers' Compensation"
+  },
+  {
+   "fieldname": "builders_risk",
+   "fieldtype": "Data",
+   "label": "Builder's Risk"
+  },
+  {
+   "fieldname": "additional_information_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "q1",
+   "fieldtype": "Heading",
+   "label": "Any pending litigation or legal disputes"
+  },
+  {
+   "fieldname": "q2",
+   "fieldtype": "Heading",
+   "label": "Any bankruptcies or financial difficulties in the past five years"
+  },
+  {
+   "fieldname": "q3",
+   "fieldtype": "Heading",
+   "label": "Any conflicts of interest that may arise during the project"
+  },
+  {
+   "fieldname": "q4",
+   "fieldtype": "Heading",
+   "label": "Any Additional Information Relevant to the Prequalification Process ( if any)"
+  },
+  {
+   "fieldname": "column_break_6ccyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "y1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "y2",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "y3",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "y4",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_goleg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "n1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "n2",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "n3",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "n4",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_gj9zn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "r1",
+   "fieldtype": "Check",
+   "label": "Remark"
+  },
+  {
+   "default": "0",
+   "fieldname": "r2",
+   "fieldtype": "Check",
+   "label": "Remark"
+  },
+  {
+   "default": "0",
+   "fieldname": "r3",
+   "fieldtype": "Check",
+   "label": "Remark"
+  },
+  {
+   "default": "0",
+   "fieldname": "r4",
+   "fieldtype": "Check",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "company_managing_director_declaration_section",
+   "fieldtype": "Section Break",
+   "label": "Company Managing Director Declaration"
+  },
+  {
+   "fieldname": "declare",
+   "fieldtype": "HTML",
+   "label": "declare",
+   "options": "<h5>I, hereby declare that the information provided in this prequalification form is accurate and complete to the best of my knowledge. I understand that any false information may result in disqualification from participating in the project.</h5><br>"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_mzk4b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_qjiwy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_yqdyr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_iqkna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zrjor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_1qj21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lnalw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4qks2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_edmxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yqbt1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_r3ajh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tyjrg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7zxjj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sauns",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.r1",
+   "fieldname": "specify2",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "depends_on": "eval:doc.r2",
+   "fieldname": "specify3",
+   "fieldtype": "Data",
+   "label": "Specify"
+  },
+  {
+   "depends_on": "eval:doc.r3",
+   "fieldname": "specify4",
+   "fieldtype": "Data",
+   "label": "Specify"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-07 21:08:25.754652",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Pre-Qualifications",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

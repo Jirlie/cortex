@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-22 06:43:33.377674",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bms"
+ ],
+ "fields": [
+  {
+   "fieldname": "bms",
+   "fieldtype": "Attach",
+   "label": "BMS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 10:40:10.465843",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "BMS",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

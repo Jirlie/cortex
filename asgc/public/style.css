@@ -1,0 +1,126 @@
+/* :root {
+    --main-color: #070d19;
+    --second-color: #0c1427;
+    --third-color: #5660D9;
+    --font-color: #7987a1;
+}
+.navbar,
+[data-page-route=Workspaces] .layout-main .layout-side-section {
+    background-color: var(--second-color);
+}
+.page-container,
+.page-head {
+    background-color: var(--main-color);
+}
+.page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
+    background-color: var(--third-color);
+    color: white;
+}
+.standard-sidebar .standard-sidebar-item svg, .desk-sidebar .standard-sidebar-item svg, .search-dialog .search-results .search-sidebar .standard-sidebar-item svg {
+    --icon-stroke: var(--third-color);
+}
+[data-page-route=Workspaces] .standard-sidebar-item .sidebar-item-label {
+    color: var(--third-color);
+}
+.desk-sidebar .standard-sidebar-item:hover,
+.desk-sidebar .standard-sidebar-item.selected {
+    background-color: var(--third-color);
+    color: white;
+}
+.desk-sidebar .standard-sidebar-item:hover span,
+.desk-sidebar .standard-sidebar-item:hover svg,
+.desk-sidebar .standard-sidebar-item.selected span,
+.desk-sidebar .standard-sidebar-item.selected svg {
+    color: white;
+    --icon-stroke: white;
+}
+.widget.links-widget-box,
+.widget.shortcut-widget-box {
+    background-color: inherit;
+    border: 1px solid var(--third-color);
+}
+.widget.links-widget-box .link-item .link-content,
+.widget .widget-head .widget-label .widget-title span,
+.widget .widget-head .widget-label .widget-title svg {
+    color: var(--font-color);
+    --icon-stroke: var(--font-color);
+}
+.indicator-pill.gray {
+    background-color: var(--font-color);
+}
+.widget.links-widget-box .link-item:hover {
+    background-color: var(--third-color);
+}
+.widget.links-widget-box .link-item:hover span {
+    color: white;
+}
+.widget,
+.layout-main-section .frappe-list .no-result,
+.layout-side-section,
+.page-form,
+.frappe-card .list-paging-area {
+    background-color: var(--second-color);
+}
+.layout-main-section .frappe-list {
+    background-color: var(--second-color);
+}
+.page-form {
+    border-bottom: 1px solid var(--third-color);
+}
+.list-paging-area {
+    border-top: 1px solid var(--third-color);
+}
+.btn.btn-default {
+    border: 1px solid var(--third-color);
+    background-color: var(--third-color);
+    color: white;
+}
+.btn.btn-default:hover {
+    background-color: var(--third-color);
+    color: white;
+}
+.btn.btn-default svg,
+.btn.btn-default:hover svg {
+    --icon-stroke: white;
+}
+.btn-group .btn {
+    outline: none;
+}
+.page-title .title-area .title-text {
+    color: white;
+} */
+.icons {
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+    opacity: 5%;
+}
+.icons:hover {
+    opacity: 100%;
+}
+.inner-group-button {
+    position: absolute;
+    left: -24%;
+    top: 0;
+}
+@media (max-width: 768px) {
+    .icons {
+        left: 89%;
+    }
+}
+.page-head.drop-shadow {
+    box-shadow: unset;
+    background-color: unset;
+    /* background-color: var(--main-color) !important; */
+}
+.content {
+    min-height: 100vh;
+}
+[data-page-route=Workspaces] .layout-main .layout-main-section {
+    background-image: unset;
+    /* background-color: var(--second-color); */
+}
+

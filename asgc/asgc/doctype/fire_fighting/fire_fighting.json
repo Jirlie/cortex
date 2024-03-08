@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-22 06:42:40.131182",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fire_fighting"
+ ],
+ "fields": [
+  {
+   "fieldname": "fire_fighting",
+   "fieldtype": "Attach",
+   "label": "Fire Fighting"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 10:40:09.896142",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Fire Fighting",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

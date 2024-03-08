@@ -1,0 +1,56 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"BVBnRYjOhV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Technical</span>\",\"col\":12}},{\"id\":\"lyETqP3HF5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Revit\",\"col\":3}},{\"id\":\"Ryh8U9GBtw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shopdrawing\",\"col\":3}},{\"id\":\"DMz37i103v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Red Markeup\",\"col\":3}},{\"id\":\"469bRzsYcN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asbuilt\",\"col\":3}}]",
+ "creation": "2023-11-10 02:00:26.240152",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Technical",
+ "links": [],
+ "modified": "2024-03-07 17:42:10.372137",
+ "modified_by": "Administrator",
+ "module": "ASGC",
+ "name": "Technical",
+ "number_cards": [],
+ "owner": "nasser@nasserx.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 17.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Revit",
+   "link_to": "Revit",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Shopdrawing",
+   "link_to": "Shopdrawing",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Red Markeup",
+   "link_to": "Red Markeup",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asbuilt",
+   "link_to": "Asbuilt",
+   "type": "DocType"
+  }
+ ],
+ "title": "Technical"
+}
