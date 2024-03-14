@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "technical_submittal_type",
+  "project_name",
   "section_break_gyye7",
   "employer",
   "column_break_sfq3v",
@@ -653,11 +654,17 @@
    "fieldname": "signature_stamp2",
    "fieldtype": "Signature",
    "label": "Signature & Stamp"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-07 20:24:03.794571",
+ "modified": "2024-03-11 18:15:57.174779",
  "modified_by": "Administrator",
  "module": "ASGC",
  "name": "Technical Submittals",

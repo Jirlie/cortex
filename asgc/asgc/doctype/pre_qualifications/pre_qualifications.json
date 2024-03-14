@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "pre_qualification_type",
+  "project_name",
   "section_break_l7in0",
   "employer",
   "column_break_pop51",
@@ -692,11 +693,17 @@
    "fieldname": "specify4",
    "fieldtype": "Data",
    "label": "Specify"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-07 21:08:25.754652",
+ "modified": "2024-03-11 18:16:47.369386",
  "modified_by": "Administrator",
  "module": "ASGC",
  "name": "Pre-Qualifications",

@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "tender_ifc_type",
+  "pname",
   "section_break_ei9op",
   "employer",
   "column_break_oz970",
@@ -215,14 +216,14 @@
    "fieldname": "project_code",
    "fieldtype": "Link",
    "label": "Project Code",
-   "options": "Projects Awarded"
+   "options": "Project"
   },
   {
    "fieldname": "column_break_f5akq",
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "project_code.project_name",
+   "fetch_from": "project_code.custom_project_operation_name",
    "fieldname": "project_name",
    "fieldtype": "Data",
    "label": "Project Name"
@@ -241,7 +242,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "project_code.city",
+   "fetch_from": "project_code.custom_city",
    "fieldname": "location_city",
    "fieldtype": "Data",
    "label": "Location City"
@@ -621,11 +622,17 @@
    "fieldname": "tender_award_date",
    "fieldtype": "Date",
    "label": "Tender Award Date"
+  },
+  {
+   "fieldname": "pname",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 16:42:22.487826",
+ "modified": "2024-03-11 18:25:19.749361",
  "modified_by": "Administrator",
  "module": "ASGC",
  "name": "Tender IFCs",

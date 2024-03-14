@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "shop_drawing_type",
+  "project_name",
   "section_break_5xsgp",
   "employer",
   "column_break_jdpbf",
@@ -491,11 +492,17 @@
    "fieldname": "date3",
    "fieldtype": "Date",
    "label": "Date"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-07 13:29:21.670894",
+ "modified": "2024-03-11 18:09:18.194557",
  "modified_by": "Administrator",
  "module": "ASGC",
  "name": "Shop Drawing",
